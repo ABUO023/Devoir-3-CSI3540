@@ -12,6 +12,7 @@ The application is hosted at: [https://devoir3.adityabaindur.dev](https://devoir
 
 You can watch the demo video here:
 
+https://github.com/user-attachments/assets/885dae83-fe06-456d-bbea-66f857c6c762
 
 <p align="center">
   <a href="https://devoir3.adityabaindur.dev/assets/demo-todo.mp4">
