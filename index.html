@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>To-Do List DOM</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script defer src="script.js"></script>
+
+<style>
+/* dotted grid background */
+body {
+  background-color: #000;
+  background-image: radial-gradient(rgba(255,255,255,0.08) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+</style>
+
+</head>
+
+<body class="min-h-screen flex items-center justify-center text-neutral-200 font-mono">
+
+<div class="w-full max-w-lg">
+
+    <!-- Title -->
+    <h1 class="text-xl mb-6 tracking-wide text-neutral-300">
+        Todo List - DOM
+    </h1>
+
+    <!-- Input -->
+    <div class="flex gap-2 mb-6">
+
+        <input
+            id="taskInput"
+            type="text"
+            placeholder="nouvelle tâche..."
+            class="flex-1 bg-black border border-neutral-700 px-3 py-2 text-sm outline-none focus:border-neutral-400"
+        >
+
+        <button
+            id="addButton"
+            class="px-4 py-2 text-sm border border-neutral-700 hover:border-neutral-400 transition"
+        >
+            ajouter
+        </button>
+
+    </div>
+
+    <!-- Task list -->
+    <ul
+        id="taskList"
+        class="space-y-2 text-sm"
+    ></ul>
+
+</div>
+
+</body>
+</html>
